@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Flask = "*"
+Flask-RESTful = "*"
+Flask-Migrate = "*"
+Flask-SQLAlchemy = "*"
+flask-marshmallow = "*"
+Flask-JWT-Extended = "*"
+Flask-Cors = "*"
+psycopg2-binary = "*"
+marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+marshmallow-enum = "*"
+[dev-packages]
+
+[requires]
+python_version = "3.8"
